@@ -42,3 +42,4 @@ for x in range(steps):
     shape_list[top(column1)][column1], shape_list[top(column2) - 1][column2] = \
         shape_list[top(column2) - 1][column2], shape_list[top(column1)][column1]
     print_shape()
+    print("kosse kharet")
