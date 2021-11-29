@@ -17,7 +17,7 @@ for column_number in range(columns_count):
     shape_list[rows_count - 1][column_number] = "-" * 20
 
 for disk in range(disk_number):
-    shape_list[2 + disk][0] = "==" * (i + 1)
+    shape_list[2 + disk][0] = "==" * (disk + 1)
 
 shape_list.append(["Tower #0", "Tower #1", "Tower #2"])
 
