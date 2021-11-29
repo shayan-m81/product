@@ -32,11 +32,11 @@ def print_shape():
 
 # this def will find the number of row that i should make change in, for each columns
 def top(column):
-    for column_number in range(rows_count):
-        if shape_list[column_number][column][0] == "=":
-            return column_number
-        elif column_number == rows_count - 1:
-            return column_number
+    for row in range(rows_count):
+        if shape_list[row][column][0] == "=":
+            return row
+        elif row == rows_count - 1:
+            return row
 
 
 steps = int(first_input[-1])
